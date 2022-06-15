@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", "sans-serif";
+  font-size: 12px;
+  margin: 0;
+}
+header {
+  background-color: #eac926;
+}
+.texto-compra {
+  text-align: center;
+}
+nav > ul {
+  list-style: none;
+  padding-left: 0;
+}
+a + i {
+  padding-left: 3px;
+}
+.titular {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+p {
+  margin: 0;
+}
+.precio {
+  font-size: 18px;
+}
+.porcentaje {
+  font-size: 16px;
+  color: #39b54a;
+  padding-bottom: 15px;
+}
+.descripcion {
+  font-size: 16px;
+}
+.burger-menu {
+  background-color: #1259c3;
+  width: min-content;
+  color: white;
+  padding: 10px;
+  margin: auto;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.articulo {
+  margin-bottom: 10px;
+  
+}
+.icono-footer {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #1259c3;
+}
+.main {
+  padding: 0 5%;
+  background-color: #ebebeb;
+}
+footer {
+  width: 90%;
+  margin: 0 auto 15px auto;
+}
+.caja-articulo {
+  border-top: 1px solid #ebebeb;
+  padding: 15px;
+  background-color: white;
+}
+h3 {
+  margin: 0;
+}
+.articulo-pie {
+  padding: 20px 34px;
+  text-align: center;
+}
+
+.imagen-articulo{
+  width: 100%;
+}
+.fa-truck{
+  color: #39b54a;
+}
+.circunferencia{
+  width: 30px;
+  height: 30px;
+  border: 1px solid #39b54a;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contenedor-imagen{
+  margin: 0;
+  background-color: white;
+}
+/*
+Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a;
+
+Cuerpos de texto: 12px
+Titulares (Basado en tu última visita/Ofertas): 24px
+Precios: 18px
+Descuentos: 16px
+Descripciones: 16px
+*/
