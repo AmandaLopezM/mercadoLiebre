@@ -15,6 +15,7 @@ header {
 nav > ul {
   list-style: none;
   padding-left: 0;
+  display: none;
 }
 a + i {
   padding-left: 3px;
@@ -29,6 +30,7 @@ p {
 }
 .precio {
   font-size: 18px;
+  
 }
 .porcentaje {
   font-size: 16px;
@@ -37,6 +39,7 @@ p {
 }
 .descripcion {
   font-size: 16px;
+  display: none;
 }
 .burger-menu {
   background-color: #1259c3;
@@ -49,7 +52,6 @@ p {
 }
 .articulo {
   margin-bottom: 10px;
-  
 }
 .icono-footer {
   font-size: 2em;
@@ -77,13 +79,13 @@ h3 {
   text-align: center;
 }
 
-.imagen-articulo{
+.imagen-articulo {
   width: 100%;
 }
-.fa-truck{
+.fa-truck {
   color: #39b54a;
 }
-.circunferencia{
+.circunferencia {
   width: 30px;
   height: 30px;
   border: 1px solid #39b54a;
@@ -92,7 +94,7 @@ h3 {
   justify-content: center;
   align-items: center;
 }
-.contenedor-imagen{
+.contenedor-imagen {
   margin: 0;
   background-color: white;
 }

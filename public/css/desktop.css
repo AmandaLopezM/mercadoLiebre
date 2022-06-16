@@ -1,4 +1,4 @@
-@media screen and (min-width: 361px) {
+@media screen and (min-width: 769px) {
     nav > ul {
         display: block;
     }
@@ -8,7 +8,6 @@
     .burger-menu{
         display: none;
     }
-
     .articulo{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
