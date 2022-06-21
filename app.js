@@ -2,10 +2,6 @@ const path = require("path");
 const express = require("express");
 const server = express();
 
-server.listen(2020, () =>
-  console.log("Abriendo el servidor http://localhost:2020")
-);
-
 const public = path.resolve(__dirname, "public");
 server.use(express.static(public));
 
@@ -23,4 +19,8 @@ server.get("/register", (req, res) =>
 
 server.get("/login", (req, res) =>
   res.sendFile(path.resolve(__dirname, "views", "login.html"))
+);
+
+server.listen(process.env.PORT || 3000, () =>
+  console.log("Abriendo el servidor http://localhost:3000")
 );
