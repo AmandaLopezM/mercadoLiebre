@@ -1,0 +1,89 @@
+header {
+  padding-bottom: 10px;
+}
+main {
+  justify-content: center;
+  display: flex;
+  background: #ebebeb;
+}
+.nombre {
+  margin: 20px 0 15px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+}
+.usuario1 {
+  margin: 15px 0;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+}
+.email {
+  margin: 15px 0;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+}
+.fecha {
+  margin: 15px 0;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+}
+.domicilio {
+  margin: 15px 0;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+}
+.perfil {
+  margin: 15px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+.checkbox {
+  margin: 15px;
+  padding: 5px;
+}
+.foto {
+  margin: 15px 0;
+  padding: 5px;
+  width: 100%;
+}
+.password1 {
+  margin: 15px 0;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+}
+.formulary label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 15px;
+  display: block;
+}
+.formulary {
+  width: 60%;
+}
+.botones button {
+  background-color: #1259c3;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: none;
+  width: 45%;
+}
+.botones {
+  margin: 15px;
+  justify-content: space-around;
+  display: flex;
+}

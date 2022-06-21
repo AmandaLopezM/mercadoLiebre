@@ -1,4 +1,6 @@
 * {
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
 }
 body {
@@ -8,14 +10,50 @@ body {
 }
 header {
   background-color: #eac926;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 12px;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  flex-basis: 50%;
+  padding: 0 10px;
+}
+.barra-busqueda > input {
+  width: 90%;
+  border-radius: 5px 0 0 5px;
+  border: none;
+}
+.barra-busqueda > button {
+  width: 20px;
+  border-radius: 0 5px 5px 0;
+  border: none;
+  background-color: white;
+  color: #666;
+}
+.barra-busqueda {
+  padding: 0 10px;
+  flex-basis: 50%;
+  display: flex;
+  justify-content: end;
+}
+.barra-busqueda > input {
+  padding: 5px;
 }
 .texto-compra {
   text-align: center;
+  padding: 10px;
+  flex-basis: 100%;
 }
 nav > ul {
   list-style: none;
   padding-left: 0;
   display: none;
+}
+a {
+  text-decoration: none;
+  color: black;
 }
 a + i {
   padding-left: 3px;
@@ -30,12 +68,13 @@ p {
 }
 .precio {
   font-size: 18px;
-  
+  flex-basis: 30%;
 }
 .porcentaje {
   font-size: 16px;
   color: #39b54a;
   padding-bottom: 15px;
+  flex-basis: 70%;
 }
 .descripcion {
   font-size: 16px;
@@ -48,7 +87,6 @@ p {
   padding: 10px;
   margin: auto;
   border-radius: 5px;
-  font-size: 20px;
 }
 .articulo {
   margin-bottom: 10px;
@@ -70,6 +108,7 @@ footer {
   border-top: 1px solid #ebebeb;
   padding: 15px;
   background-color: white;
+  position: relative;
 }
 h3 {
   margin: 0;
@@ -85,18 +124,32 @@ h3 {
 .fa-truck {
   color: #39b54a;
 }
-.circunferencia {
+
+main section article i {
+  display: block;
+  font-size: 16px;
+  padding: 5px;
   width: 30px;
   height: 30px;
   border: 1px solid #39b54a;
+  background-color: #fff;
   border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: absolute;
+  right: 20px;
+  top: -15px;
 }
 .contenedor-imagen {
   margin: 0;
   background-color: white;
+}
+.caja-chiquita {
+  display: flex;
+}
+.banner1 {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding-top: 20px;
 }
 /*
 Amarillo: #EAC926;
