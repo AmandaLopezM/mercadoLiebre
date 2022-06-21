@@ -24,6 +24,9 @@ main {
   border: none;
   width: 100%;
 }
+.submit:hover {
+  background-color: #0022aa;
+}
 .password {
   border-radius: 5px;
   padding: 10px;

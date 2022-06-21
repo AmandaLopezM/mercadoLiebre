@@ -1,21 +1,48 @@
 @media screen and (min-width: 769px) {
-    nav > ul {
-        display: block;
-    }
-    p.descripcion{
-        display: block;
-    }
-    .burger-menu{
-        display: none;
-    }
-    .articulo{
-       
-        flex-basis: 20%;
-    }
-
-    .nav-bar li,
+  nav > ul {
+    display: block;
+  }
+  p.descripcion {
+    color: white;
+    transition: color 0.3s ease-in;
+  }
+  .articulo:hover p.descripcion {
+    color: black;
+  }
+  .burger-menu {
+    display: none;
+  }
+  .articulo {
+    box-shadow: none;
+    flex-basis: 20%;
+    transition: box-shadow 0.3s ease-out;
+  }
+  .articulo:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+  .nav-bar li,
   .site-bar li {
     padding-right: 15px;
   }
-    
-    
+  .fa-truck {
+    transition: transform 0.5s linear;
+  }
+  .fa-truck:hover {
+    transform: rotate(-90deg);
+  }
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .articulo-pie {
+    flex-basis: 33%;
+  }
+  .copyright {
+    flex-basis: 100%;
+  }
+  .icono-footer:hover {
+    color: #03264c;
+  }
+}
+
+/* Azul: #03264C; */
